@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rakkas&display=swap');
+
+.text-fredericka {
+    font-family: 'Fredericka the Great', cursive;
+}
+.text-rakkas {
+    font-family: 'Rakkas', cursive;
+}
+
+html, body {
+    height: 100%;
+    background: url("../images/wood-bg.jpg") center center;
+    background-size: cover;
+}
+
+#wrapper {
+    max-width: 1024px;
+}
+
+#wrapper .content-frame {
+    padding-top: 66%;
+
+}
+
+#wrapper .content {
+    background: url("../images/map-bg.png") center center no-repeat;
+    background-size: contain;
+}
+
+
+#story-image {
+    -webkit-mask-image: url("../images/watercolor-mask3.png");
+    mask-image: url("../images/watercolor-mask3.png");
+    -webkit-mask-repeat: space;
+    mask-repeat: space;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+}
